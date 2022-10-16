@@ -1,0 +1,94 @@
+body {
+    padding-top: 90px;
+  }
+  @media (max-width: 979px) {
+    body {
+      padding-top: 0px;
+    }
+  }
+
+.index-body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/free-vector/realistic-soccer-football-stadium-illustration_52683-60376.jpg?w=1800&t=st=1665950804~exp=1665951404~hmac=ad4eeb90bf214e488201cd79730059b642cd4df4e83cdc03e845469cfe89ea49); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .slider-container {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .slider {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 500%;
+    animation: slide 15s infinite;
+  }
+  
+  .slide {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slide img {
+    width: 80%;
+    height: auto;
+  }
+  .slide:nth-of-type(2) img {
+    width: 40%;
+    height: auto;
+  }
+  
+  @keyframes slide {
+    15% {
+      left: 0;
+    }
+    20% {
+      left: -100%;
+    }
+    35% {
+      left: -100%;
+    }
+    40% {
+      left: -200%;
+    }
+    55% {
+      left: -200%;
+    }
+    60% {
+      left: -300%;
+    }
+    75% {
+      left: -300%;
+    }
+    80% {
+      left: -400%;
+    }
+    95% {
+      left: -400%;
+    }
+    100% {
+      left: 0;
+    }
+  }
+
+  .index-div {
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color:black;
+  }
