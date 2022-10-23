@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title> Bienvenidos</title>
+    <title> Llave de Clasificaiones</title>
 
     <link rel="stylesheet" href="css/main.css">
 

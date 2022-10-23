@@ -1,4 +1,7 @@
-body {
+  html{
+    overflow-y: scroll;
+  }
+  body {
     padding-top: 90px;
   }
   @media (max-width: 979px) {
@@ -7,7 +10,10 @@ body {
     }
   }
 
-.index-body {
+
+/* Index */
+
+  .index-body {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -90,5 +96,60 @@ body {
   .index-div {
     font-size: 30px;
     font-family: "Lucida Console", "Courier New", monospace;
-    color:black;
+    color:maroon;
+    font-weight: bold;
+  }
+
+/*Pie de pagina*/
+
+  .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+  }
+
+  .footer img{
+    width:65px;
+    height:45x;
+  }
+
+
+  /* Equipos */
+
+  .body-equipos{   
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://e0.365dm.com/22/10/1600x900/skysports-world-cup-qatar-2022_5921764.jpg?20221006085810); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .tabla-equipos{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .tabla-equipos td{
+    width: 25%;
+    font-size: 22px;
+  }
+  .tabla-equipos tr{
+    background-color: rgb(226, 108, 108);
+  }
+  .bandera{
+    width: 25px;
+    height: 15px;
   }
