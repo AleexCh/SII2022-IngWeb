@@ -153,3 +153,11 @@
     width: 25px;
     height: 15px;
   }
+
+  /* tabla de posicion*/
+
+  .tabla_p{
+    margin-left: auto;
+    margin-right: auto;
+  }
+ 
