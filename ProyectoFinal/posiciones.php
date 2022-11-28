@@ -30,7 +30,7 @@
             <td>Puntos</td>
         </tr>
 
-        <?php
+        <?php /* solo muestra los equipos y sus estadisticas*/
             $sql="SELECT * from teams";
             $result=mysqli_query($conexion,$sql);
 
@@ -48,6 +48,7 @@
             <td> <?php echo $mostrar['goals_against']?> </td>
             <td> <?php echo $mostrar['dg']?></td>
             <td> <?php echo $mostrar['pts']?> </td>
+            <td> <a href="edit_pos.php?act=<?=$mostrar['country']?>">Editar</a> </td>
         </tr>
         <?php
             }
